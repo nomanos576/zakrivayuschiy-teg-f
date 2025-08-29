@@ -40,13 +40,13 @@
 }
 
 .header__title {
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
   text-transform: uppercase;
   font-size: clamp(3.0625rem, 2.7106rem + 1.5vw, 4.0625rem);
 }
 
 .header__text {
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
   font-size: clamp(0.875rem, 0.6769rem + 0.85vw, 1.4375rem);
   text-transform: uppercase;
 }
@@ -95,7 +95,7 @@
 .card__watermark {
   position: absolute;
   font-size: 14px;
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
   mix-blend-mode: hard-light;
   text-transform: uppercase;
   inset-block-start: 25px;
@@ -125,7 +125,7 @@
 }
 
 .card__paragraph {
-  font-family: var(--main-font);
+  font-family: var(--main-font), sans-serif;
   font-size: 18px;
   line-height: 21px;
 }
@@ -183,7 +183,7 @@
 }
 
 .button__text {
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 0.9;
   position: relative;
@@ -223,7 +223,6 @@
   align-items: center;
   inline-size: clamp(21.3124rem, 21.0484rem + 1.1268vw, 22.0626rem);
   border: var(--border);
-  overflow: hidden;
 }
 
 .dialog-window[open]::backdrop {
@@ -231,7 +230,7 @@
 }
 
 .dialog__text {
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 1.5;
   text-transform: uppercase;
